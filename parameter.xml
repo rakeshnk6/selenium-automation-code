@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login Test">
+  <test name="Reading Data from xml">
+  
+  
+    <parameter name="browser" value="chrome"></parameter>
+    
+    <classes>
+    <class name="TestNG.LoginTest_XMLData_Read"></class>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
